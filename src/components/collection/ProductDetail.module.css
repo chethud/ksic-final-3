@@ -62,7 +62,7 @@
   aspect-ratio: 5 / 4.15;
   border-radius: 18px;
   overflow: hidden;
-  background: #EADCC8;
+  background: #F3E6D4;
   box-shadow: 0 16px 40px rgba(58, 46, 36, 0.08);
 }
 
@@ -138,7 +138,7 @@
   padding: 0;
   border: 1px solid rgba(196, 163, 90, 0.45);
   border-radius: 999px;
-  background: rgba(250, 246, 239, 0.94);
+  background: rgba(251, 246, 238, 0.94);
   color: var(--pdp-ink);
   box-shadow: 0 6px 16px rgba(58, 46, 36, 0.08);
   cursor: pointer;
@@ -172,7 +172,7 @@
   padding: 0;
   border: 1.5px solid transparent;
   border-radius: 10px;
-  background: #EADCC8;
+  background: #F3E6D4;
   overflow: hidden;
   cursor: pointer;
 }
@@ -300,7 +300,7 @@
   padding: 0 6px;
   border: 1px solid rgba(58, 46, 36, 0.12);
   border-radius: 999px;
-  background: rgba(250, 246, 239, 0.7);
+  background: rgba(251, 246, 238, 0.7);
 }
 
 .stepper button,
@@ -359,7 +359,7 @@
   gap: 12px;
   margin-top: 6px;
   border: 1px solid rgba(58, 46, 36, 0.16);
-  background: #EADCC8;
+  background: #F3E6D4;
   color: var(--pdp-burgundy);
   cursor: pointer;
 }
@@ -370,7 +370,7 @@
 }
 
 .statusPill:hover {
-  background: #EADCC8;
+  background: #F3E6D4;
 }
 
 .chevronOpen {
@@ -393,14 +393,14 @@
 .bookPill {
   gap: 8px;
   border: 0;
-  background: #E8D4B5;
+  background: #E4D2B6;
   color: #3A2E24;
   cursor: not-allowed;
 }
 
 .bookPill:disabled {
   opacity: 1;
-  background: #E8D4B5;
+  background: #E4D2B6;
   color: #3A2E24;
   font-family: "DM Sans", sans-serif !important;
   font-size: 0.68rem !important;
@@ -412,7 +412,7 @@
 
 .bookPill:not(:disabled) {
   background: var(--pdp-burgundy);
-  color: #FAF6EF;
+  color: #FBF6EE;
   cursor: pointer;
 }
 
@@ -420,13 +420,13 @@
   position: relative;
   justify-content: center;
   border: 1px solid var(--pdp-burgundy);
-  background: #FAF6EF;
+  background: #FBF6EE;
   color: var(--pdp-burgundy);
   cursor: pointer;
 }
 
 .enquirePill:hover {
-  background: #FAF6EF;
+  background: #FBF6EE;
 }
 
 .enquireArrow {
@@ -438,7 +438,7 @@
   height: 36px;
   border-radius: 999px;
   background: var(--pdp-burgundy);
-  color: #FAF6EF;
+  color: #FBF6EE;
   transition: transform 220ms ease;
 }
 
@@ -523,7 +523,7 @@
   max-height: min(90vh, 760px);
   overflow: auto;
   padding: 24px;
-  background: #FAF6EF;
+  background: #FBF6EE;
   border: 1px solid rgba(196, 163, 90, 0.4);
   border-radius: 20px;
 }
@@ -602,12 +602,12 @@
 .submitPill {
   border: 1px solid var(--pdp-burgundy);
   background: var(--pdp-burgundy);
-  color: #FAF6EF;
+  color: #FBF6EE;
   cursor: pointer;
 }
 
 .submitPill:hover {
-  background: #2A211A;
+  background: #2C241C;
 }
 
 .optional {
@@ -696,7 +696,7 @@
   aspect-ratio: 4 / 5;
   margin-bottom: 12px;
   border-radius: 14px;
-  background: #EADCC8;
+  background: #F3E6D4;
   overflow: hidden;
 }
 

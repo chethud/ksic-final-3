@@ -2,7 +2,7 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  background: #FAF6EF;
+  background: #FBF6EE;
   color: #3A2E24;
   overflow: hidden;
   border: 0.5px solid rgba(196, 163, 90, 0.45);
@@ -38,7 +38,7 @@
 .panel {
   display: grid;
   align-items: center;
-  background-color: #FAF6EF;
+  background-color: #FBF6EE;
   background-image: url("/assets/heritage/generations-panel-floral.jpg");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -121,7 +121,7 @@ a.cta {
 
 a.cta:hover {
   gap: 0.7rem;
-  background: #2A211A;
+  background: #2C241C;
   color: #FFFFFF !important;
 }
 
@@ -153,7 +153,39 @@ a.cta:focus-visible {
 }
 
 @media (max-width: 899px) {
+  .heritage {
+    padding: 0.55rem;
+  }
+
   .photo {
-    object-position: center center;
+    aspect-ratio: 5 / 4;
+    object-position: center 42%;
+  }
+
+  .panel {
+    background-size: 52% auto;
+    background-position: right bottom;
+  }
+
+  .copy {
+    padding: 1.65rem 1.15rem 1.85rem;
+  }
+
+  .eyebrow {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: clamp(1.85rem, 8vw, 2.35rem) !important;
+  }
+
+  .lead {
+    margin: 1rem 0 1.35rem;
+    max-width: 20rem;
+  }
+
+  a.cta {
+    min-height: 44px;
+    padding: 12px 20px;
   }
 }

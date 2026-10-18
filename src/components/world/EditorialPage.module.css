@@ -1,6 +1,6 @@
 .page {
   padding-top: var(--site-header-offset);
-  background: #FAF6EF;
+  background: #FBF6EE;
   color: #3A2E24;
 }
 
@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
   min-height: min(78vh, 720px);
-  border-bottom: 1px solid #E8D4B5;
+  border-bottom: 1px solid #E4D2B6;
 }
 
 .heroCopy,
@@ -68,7 +68,7 @@
 .block {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  border-bottom: 1px solid #E8D4B5;
+  border-bottom: 1px solid #E4D2B6;
 }
 
 .block:nth-child(odd) {

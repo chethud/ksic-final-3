@@ -17,24 +17,19 @@ export const Hero: React.FC = () => {
       style={{ position: "relative", overflow: "hidden" }}
       aria-label="Official Karnataka Mysore Silk Heritage"
     >
-      {/* Full-bleed still: ivory silk saree with a red and gold zari border */}
+      {/* Full-bleed background: ivory silk saree with a red and gold zari border */}
       <div className={styles.heroBackground} style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
-        <Image
-          src="/assets/heritage/hero-saree.png"
-          alt="Ivory Mysore silk saree with a deep red and gold zari border, draped on stone in warm light"
-          fill
-          priority
-          sizes="(max-width: 900px) 1px, 100vw"
-          className={styles.heroBackgroundImageDesktop}
-        />
-        <Image
-          src="/assets/heritage/hero-saree.png"
-          alt="Ivory Mysore silk saree with a deep red and gold zari border, draped on stone in warm light"
-          fill
-          priority
-          sizes="(max-width: 900px) 100vw, 1px"
-          className={styles.heroBackgroundImageMobile}
-        />
+        <video
+          className={styles.heroBackgroundVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true"
+        >
+          <source src="/films/hero-video.mp4" type="video/mp4" />
+        </video>
         {/* Ambient luminous scrim behind left editorial text for pristine legibility */}
         <div className={styles.heroTextBackdropScrim} aria-hidden="true" />
         {/* Soft bottom transition into parchment section */}

@@ -4,7 +4,7 @@
    ========================================================================== */
 
 .heritageSection {
-  background-color: #FAF6EF;
+  background-color: #FBF6EE;
   background-image: 
     radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.9) 0%, transparent 55%),
     radial-gradient(circle at 88% 82%, rgba(232, 212, 181, 0.5) 0%, transparent 60%);
@@ -113,7 +113,7 @@
   font-size: 0.68rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #E8D4B5;
+  color: #E4D2B6;
   font-weight: 600;
   z-index: 2;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
@@ -122,7 +122,7 @@
 .badgeCrownIcon {
   width: 13px;
   height: 13px;
-  color: #E8D4B5;
+  color: #E4D2B6;
   flex-shrink: 0;
 }
 
@@ -238,7 +238,7 @@
 
 /* Historical Quotation Panel */
 .quotePanel {
-  background-color: #FAF6EF;
+  background-color: #FBF6EE;
   border-left: 3px solid #3A2E24;
   border-top: 1px solid rgba(196, 163, 90, 0.24);
   border-right: 1px solid rgba(196, 163, 90, 0.24);
@@ -360,7 +360,7 @@
   align-items: center;
   gap: 10px;
   background-color: #3A2E24;
-  color: #FAF6EF;
+  color: #FBF6EE;
   padding: 14px 30px;
   border-radius: 9999px;
   border: 1px solid rgba(196, 163, 90, 0.45);

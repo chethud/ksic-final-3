@@ -58,13 +58,13 @@
 
 .hubItem:hover {
   border-color: var(--color-burgundy);
-  background-color: #FAF6EF;
+  background-color: #FBF6EE;
 }
 
 .hubItemActive {
   border-color: var(--color-burgundy);
   border-left: 5px solid var(--color-burgundy);
-  background-color: #EADCC8;
+  background-color: #F3E6D4;
   box-shadow: 0 4px 16px rgba(58, 46, 36, 0.06);
 }
 
@@ -150,7 +150,7 @@
 /* Map Frame */
 .mapFrame {
   position: relative;
-  background-color: #EADCC8;
+  background-color: #F3E6D4;
   border: 1px solid rgba(58, 46, 36, 0.15);
   padding: clamp(20px, 3.5vw, 32px);
   display: flex;
@@ -206,7 +206,7 @@
 
 /* District Boundaries */
 .districtsGroup {
-  fill: #E8D4B5;
+  fill: #E4D2B6;
   stroke: #C4A35A;
   stroke-width: 2.2;
 }
@@ -216,7 +216,7 @@
 }
 
 .districtPath:hover {
-  fill: #E8D4B5;
+  fill: #E4D2B6;
   stroke-width: 3.5;
 }
 

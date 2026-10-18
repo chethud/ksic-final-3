@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: minmax(0, 7fr) minmax(280px, 3fr);
   min-height: 540px;
-  background: #EADCC8;
+  background: #F3E6D4;
   color: #3A2E24;
   scroll-margin-top: 80px;
   padding-left: clamp(1.75rem, 3vw, 2.75rem);
@@ -14,7 +14,7 @@
   min-height: 540px;
   overflow: hidden;
   background: #3A2E24;
-  color: #FAF6EF;
+  color: #FBF6EE;
 }
 
 .video {

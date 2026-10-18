@@ -1,14 +1,14 @@
 .heroSection {
   position: relative;
-  height: 100svh;
-  min-height: 100svh;
+  height: calc(100svh - var(--assurance-strip-height));
+  min-height: calc(100svh - var(--assurance-strip-height));
   width: 100%;
   max-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  background-color: #FAF6EF;
+  background-color: #FBF6EE;
   box-sizing: border-box;
 }
 
@@ -22,25 +22,13 @@
   height: 100%;
 }
 
-.heroBackgroundImageDesktop {
+.heroBackgroundVideo {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  filter: brightness(1) contrast(1.02);
-  animation: heroBgSettle 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  will-change: transform;
-}
-
-.heroBackgroundImageMobile {
-  display: none;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center center;
-  filter: brightness(1) contrast(1.02);
-  animation: heroBgSettle 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  will-change: transform;
 }
 
 /* Ambient luminous scrim behind left editorial text for pristine legibility */
@@ -49,8 +37,8 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(250, 246, 239, 0.42) 0%,
-    rgba(250, 246, 239, 0.16) 28%,
+    rgba(251, 246, 238, 0.42) 0%,
+    rgba(251, 246, 238, 0.16) 28%,
     transparent 48%
   );
   pointer-events: none;
@@ -170,7 +158,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100svh;
+  min-height: 0;
   height: 100%;
   box-sizing: border-box;
 }
@@ -296,12 +284,12 @@
 
 .exploreArrow {
   transition: transform 240ms ease;
-  color: #E8D4B5;
+  color: #E4D2B6;
   flex-shrink: 0;
 }
 
 .exploreLink:hover {
-  background: #2A211A;
+  background: #2C241C;
   border-color: #C4A35A;
   color: #FFFFFF;
   transform: translateY(-2px);
@@ -340,7 +328,7 @@
   height: 20px;
   padding: 0 8px;
   border: 1px solid rgba(196, 163, 90, 0.55);
-  background: rgba(250, 246, 239, 0.72);
+  background: rgba(251, 246, 238, 0.72);
   color: #3A2E24;
   font-family: var(--font-sans);
   font-size: 9px;
@@ -416,15 +404,8 @@
   .leftMarginOrnament,
   .scrollExploreBlock,
   .leftEditorialBlock,
-  .heroTextBackdropScrim,
-  .heroBackgroundImageDesktop {
+  .heroTextBackdropScrim {
     display: none !important;
-  }
-
-  .heroBackgroundImageMobile {
-    display: block;
-    object-fit: cover;
-    object-position: center center;
   }
 
   .gandaMark {
@@ -432,15 +413,15 @@
   }
 
   .heroSection {
-    height: 100svh;
-    min-height: 100svh;
+    height: calc(100svh - var(--assurance-strip-height));
+    min-height: calc(100svh - var(--assurance-strip-height));
     display: block;
     padding: 0;
   }
 
   .heroInnerContainer {
     width: 100%;
-    min-height: 100svh;
+    min-height: 0;
     height: 100%;
     max-width: none;
     margin: 0;
@@ -523,14 +504,14 @@
   }
 
   .mobileCtaArrow {
-    color: #E8D4B5;
+    color: #E4D2B6;
     transition: transform 200ms ease;
     flex-shrink: 0;
   }
 
   .mobileCta:hover,
   .mobileCta:focus-visible {
-    background: #2A211A;
+    background: #2C241C;
     border-color: #C4A35A;
     color: #FFFFFF;
     transform: translateY(-2px);
@@ -584,7 +565,7 @@
 
   .bottomTransitionFade {
     height: 28px;
-    background: linear-gradient(180deg, transparent 0%, rgba(250, 246, 239, 0.2) 100%);
+    background: linear-gradient(180deg, transparent 0%, rgba(251, 246, 238, 0.2) 100%);
   }
 }
 

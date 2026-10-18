@@ -4,7 +4,7 @@
   --mono-muted: #51473F;
   --mono-burgundy: #3A2E24;
   --mono-gold: #C4A35A;
-  --mono-line: #E8D4B5;
+  --mono-line: #E4D2B6;
   background: var(--mono-ivory);
   color: var(--mono-ink);
   padding: 36px 0 40px;
@@ -162,7 +162,7 @@
 }
 
 .roundArrowBtnPrimary:hover:not(:disabled) {
-  background: #2A211A;
+  background: #2C241C;
   color: #FFFFFF;
 }
 
@@ -275,7 +275,7 @@
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 2px;
-  background: #EADCC8;
+  background: #F3E6D4;
 }
 
 .stageImage {

@@ -43,7 +43,7 @@
   padding: 12px 18px;
   font-size: 0.88rem;
   font-family: var(--font-sans);
-  border: 1px solid #E8D4B5;
+  border: 1px solid #E4D2B6;
   border-radius: 999px;
   background-color: var(--color-bg-paper);
   width: 280px;
@@ -67,7 +67,7 @@
   padding: 28px 24px 24px;
   border: 1px solid #C4A35A;
   border-radius: 28px;
-  background: #FAF6EF;
+  background: #FBF6EE;
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .mapButton:hover {
-  background: #2A211A;
+  background: #2C241C;
 }
 
 .mapButton:focus-visible {

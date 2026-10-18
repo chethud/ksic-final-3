@@ -1,7 +1,7 @@
 .page {
   --heritage-offset: var(--site-header-offset);
   padding-top: var(--heritage-offset);
-  background: #FAF6EF;
+  background: #FBF6EE;
   color: #3A2E24;
 }
 
@@ -15,7 +15,7 @@
   position: relative;
   height: auto;
   overflow: hidden;
-  background: #FAF6EF;
+  background: #FBF6EE;
 }
 
 .stickyFixed {
@@ -118,7 +118,7 @@
   position: relative;
   width: 112px;
   height: 1px;
-  background: #E8D4B5;
+  background: #E4D2B6;
   overflow: hidden;
 }
 
@@ -160,7 +160,7 @@
 
 .hero {
   padding: 28px 0 56px;
-  background: #FAF6EF;
+  background: #FBF6EE;
 }
 
 .heroGrid,
@@ -207,8 +207,21 @@
 .heroLead {
   max-width: 38rem;
   margin: 22px 0 0;
-  font-size: clamp(1.12rem, 1.6vw, 1.35rem);
-  line-height: 1.5;
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #443B34 !important;
+}
+
+.narrative .body {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #443B34 !important;
 }
 
 .heroMedia,
@@ -218,7 +231,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  background: #EADCC8;
+  background: #F3E6D4;
 }
 
 .heroMedia {
@@ -249,7 +262,7 @@
 }
 
 .narrative {
-  background: #EADCC8;
+  background: #F3E6D4;
 }
 
 .panel.hero,
@@ -259,7 +272,7 @@
 
 .narrativeAlt,
 .timeline {
-  background: #FAF6EF;
+  background: #FBF6EE;
 }
 
 .sectionTitle {
@@ -345,7 +358,7 @@
 
 .statRow p + p {
   padding-left: 28px;
-  border-left: 1px solid #E8D4B5;
+  border-left: 1px solid #E4D2B6;
 }
 
 .timelineHeader {
@@ -375,7 +388,7 @@
   flex: 0 0 auto;
   min-height: 40px;
   padding: 0 16px;
-  border: 1px solid #E8D4B5;
+  border: 1px solid #E4D2B6;
   border-radius: 999px;
   background: transparent;
   color: #3A2E24;
@@ -486,7 +499,7 @@
   align-items: flex-end;
   margin-top: 22px;
   padding-top: 16px;
-  border-top: 1px solid #E8D4B5;
+  border-top: 1px solid #E4D2B6;
 }
 
 .provenance {
@@ -522,7 +535,7 @@
 }
 
 .cta:hover {
-  background: #2A211A;
+  background: #2C241C;
 }
 
 @media (max-width: 900px) {

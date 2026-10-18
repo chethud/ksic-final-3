@@ -1,8 +1,8 @@
 .strip {
   position: relative;
-  background: #FAF6EF;
-  border-top: 1px solid #E8D4B5;
-  border-bottom: 1px solid #E8D4B5;
+  background: #FBF6EE;
+  border-top: 1px solid #E4D2B6;
+  border-bottom: 1px solid #E4D2B6;
   color: #3A2E24;
 }
 
@@ -26,14 +26,14 @@
 }
 
 .item + .item {
-  border-left: 1px solid #E8D4B5;
+  border-left: 1px solid #E4D2B6;
 }
 
 .badge {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  background: #EADCC8;
+  background: #F3E6D4;
   color: #7A6232;
   display: grid;
   place-items: center;
@@ -59,10 +59,50 @@
 
 @media (max-width: 960px) {
   .wrap {
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 16px 4px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.25;
   }
 
   .item:nth-child(3) {
-    border-left: 0;
+    border-left: 1px solid #E4D2B6;
+  }
+
+  .badge {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .item {
+    gap: 6px;
+    padding: 14px 3px 16px;
+    font-size: 10px;
+  }
+
+  .badge {
+    width: 34px;
+    height: 34px;
+  }
+
+  .icon {
+    width: 17px;
+    height: 17px;
   }
 }

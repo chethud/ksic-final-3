@@ -1,6 +1,6 @@
 .catalogueWrapper {
   width: 100%;
-  background: #FAF6EF;
+  background: #FBF6EE;
   color: #3A2E24;
 }
 
@@ -31,7 +31,7 @@
   padding: 0 12px 0 10px;
   border: 1px solid rgba(58, 46, 36, 0.28);
   border-radius: 999px;
-  background: rgba(250, 246, 239, 0.92);
+  background: rgba(251, 246, 238, 0.92);
   color: #3A2E24;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   cursor: pointer;
@@ -125,7 +125,7 @@
 .filterPillActive:hover {
   background: #3A2E24;
   border-color: #3A2E24;
-  color: #FAF6EF;
+  color: #FBF6EE;
 }
 
 .filterCount {
@@ -152,9 +152,9 @@
   position: relative;
   display: block;
   min-height: 348px;
-  color: #FAF6EF;
+  color: #FBF6EE;
   text-decoration: none;
-  background: #EADCC8;
+  background: #F3E6D4;
   overflow: hidden;
 }
 
@@ -193,7 +193,7 @@
   padding: 6px 10px;
   border-radius: 4px;
   background: rgba(18, 12, 10, 0.72);
-  color: #FAF6EF;
+  color: #FBF6EE;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.58rem;
   font-weight: 500;
@@ -208,7 +208,7 @@
   font-size: clamp(2rem, 3vw, 2.85rem);
   font-weight: 500;
   line-height: 1.02;
-  color: #FAF6EF;
+  color: #FBF6EE;
 }
 
 .viewArticle {
@@ -219,8 +219,8 @@
   margin-top: 4px;
   padding: 4px 4px 4px 16px;
   border-radius: 999px;
-  background: #2A211A;
-  color: #FAF6EF;
+  background: #2C241C;
+  color: #FBF6EE;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.66rem;
   font-weight: 600;
@@ -246,8 +246,8 @@
 }
 
 .viewArrow {
-  background: rgba(250, 246, 239, 0.16);
-  color: #FAF6EF;
+  background: rgba(251, 246, 238, 0.16);
+  color: #FBF6EE;
 }
 
 .featureMedia:hover .viewArrow {
@@ -262,7 +262,7 @@
   gap: 18px;
   padding: 28px 18px 26px;
   text-align: center;
-  color: #E8D4B5;
+  color: #E4D2B6;
   background:
     radial-gradient(circle at 50% 18%, rgba(196, 163, 90, 0.16), transparent 42%),
     #2A211A;
@@ -271,7 +271,7 @@
 .panelOrnament {
   width: 54px;
   height: 40px;
-  color: #E8D4B5;
+  color: #E4D2B6;
 }
 
 .featureNav {
@@ -286,11 +286,11 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.72rem;
   letter-spacing: 0.14em;
-  color: #FAF6EF;
+  color: #FBF6EE;
 }
 
 .featureCount span {
-  color: rgba(250, 246, 239, 0.55);
+  color: rgba(251, 246, 238, 0.55);
 }
 
 .navRule {
@@ -303,17 +303,17 @@
   padding: 0;
   border: 1px solid rgba(232, 212, 181, 0.7);
   background: transparent;
-  color: #FAF6EF;
+  color: #FBF6EE;
   cursor: pointer;
 }
 
 .navBtn:hover:not(:disabled) {
-  background: rgba(250, 246, 239, 0.12);
+  background: rgba(251, 246, 238, 0.12);
 }
 
 .navBtnFilled {
-  background: #FAF6EF;
-  border-color: #FAF6EF;
+  background: #FBF6EE;
+  border-color: #FBF6EE;
   color: #3A2E24;
 }
 
@@ -335,7 +335,7 @@
   letter-spacing: 0.16em;
   line-height: 1.55;
   text-transform: uppercase;
-  color: #E8D4B5;
+  color: #E4D2B6;
 }
 
 .productGrid {
@@ -361,9 +361,9 @@
   display: block;
   aspect-ratio: 3 / 4;
   overflow: hidden;
-  border: 1px solid #E8D4B5;
+  border: 1px solid #E4D2B6;
   border-radius: 12px;
-  background: #EADCC8;
+  background: #F3E6D4;
 }
 
 .editorialBody {
@@ -404,7 +404,7 @@
 .productCard:hover .arrow {
   background: #3A2E24;
   border-color: #3A2E24;
-  color: #FAF6EF;
+  color: #FBF6EE;
 }
 
 .editorialFoot {
@@ -430,9 +430,9 @@
   display: block;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  border: 1px solid #E8D4B5;
+  border: 1px solid #E4D2B6;
   border-radius: 12px;
-  background: #EADCC8;
+  background: #F3E6D4;
   box-shadow: 0 10px 24px rgba(58, 46, 36, 0.04);
 }
 
